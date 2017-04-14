@@ -1263,4 +1263,5 @@
   </boundingBox>
   <geometrySize>	762800	</geometrySize>
   <minUVDensity>	0.018127	</minUVDensity>
+	<primitivesName>vehicles/german/G41_DickerMax/normal/lod0/chassis</primitivesName>
 </chassis.visual_processed>
