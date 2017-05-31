@@ -1,6 +1,6 @@
-ownModel loader V1.342
+ownModel loader V1.351
 	by atacms
-	compatibility as of now v0.9.17.1
+	compatibility as of now v0.9.18.0/0.9.19CT
 --------------------------------------------
 A universal model loader originally designed to address the hitbox mismatch issue caused by using remodels significantly different from stock models.
 
@@ -12,7 +12,7 @@ It has the option to manage multiple remodel profiles and apply them individuall
 
 
 [Known Issues]
-
+Resolved.
 
 [Configuration]
 mod config file <scripts/client/mods/ownModel.xml> is fully commented.
@@ -26,6 +26,18 @@ Unless the profile belongs to a stock WoT model in which case you can activate i
 
 --------------------------------------------
 [Changelog]
+V1.351
+#WoT 0.9.19CT compatible
+
+V1.35
+#added support for <fixedInscription>, <fixedEmblem>
+#added option to define recoil parameter, especially recoil length <amplitude>
+#national inscriptions can now be invoked by any nation via <fixedInscription>
+#these inscriptions in global domain have different ID format as explained at the beginning of ownModel.xml
+
+V1.343
+#minor fix for hull net model
+
 V1.342
 #fixed bug in loading seasonal model from outside ownModel profiles
 
@@ -42,8 +54,8 @@ V1.32
 #adapt to wot0.9.17.1
 
 V1.31
-#mini turret support added to 8
-#mini turret can be mounted on main turret
+#max mini-turret count increased to 8
+#mini-turret can be mounted ontop main turret
 
 V1.3
 #added mini turret support (up to 2 mini-turrets)
@@ -72,7 +84,6 @@ V1.29
 #added option to specify national emblems on tank models
 #added option to define additional elevation(HP_acc_0) and auto-rotation(HP_acc_E0) node in turret visual file
 #if such nodes are detected, acc_0.model and/or acc_E0.model will be attached to this node if found under the same folder
-
 
 V1.28
 #fixed crash when used on tanks with multiple hull variants (tiger1, caernarvon, conqueror, etc.)
