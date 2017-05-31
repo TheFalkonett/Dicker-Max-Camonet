@@ -1,0 +1,10 @@
+<chassis.model>
+  <nodefullVisual>vehicles/TheFalkonett's RAoS/G41_DickerMax/normal/lod0/Chassis</nodefullVisual>
+  <materialNames>
+  </materialNames>
+  <visibilityBox>
+    <min>-1.41306 0.000158646 -2.85678</min>
+    <max>1.41306 1.19113 2.85537</max>
+  </visibilityBox>
+  <tank>	true	</tank>
+</chassis.model>

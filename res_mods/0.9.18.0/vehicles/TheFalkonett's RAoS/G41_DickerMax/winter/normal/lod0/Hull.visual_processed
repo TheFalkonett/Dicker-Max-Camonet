@@ -1,0 +1,114 @@
+<hull.visual_processed>
+  <node>
+    <identifier>Scene Root</identifier>
+    <transform>
+      <row0>	1.000000 0.000000 0.000000	</row0>
+      <row1>	0.000000 1.000000 0.000000	</row1>
+      <row2>	0.000000 0.000000 1.000000	</row2>
+      <row3>	0.000000 0.000000 0.000000	</row3>
+    </transform>
+    <node>
+      <identifier>nodes_01</identifier>
+      <transform>
+        <row0>	1.000000 0.000000 0.000000	</row0>
+        <row1>	0.000000 1.000000 0.000000	</row1>
+        <row2>	0.000000 0.000000 1.000000	</row2>
+        <row3>	0.000000 0.000000 0.000000	</row3>
+      </transform>
+      <node>
+        <identifier>HP_Fire_1</identifier>
+        <transform>
+          <row0>	1.000000 0.000000 0.000000	</row0>
+          <row1>	0.000000 1.000000 0.000000	</row1>
+          <row2>	0.000000 0.000000 1.000000	</row2>
+          <row3>	0.017566 -0.194639 -1.242904	</row3>
+        </transform>
+      </node>
+      <node>
+        <identifier>HP_Fire_2</identifier>
+        <transform>
+          <row0>	1.000000 0.000000 0.000000	</row0>
+          <row1>	0.000000 1.000000 0.000000	</row1>
+          <row2>	0.000000 0.000000 1.000000	</row2>
+          <row3>	-0.671216 -0.082562 1.994254	</row3>
+        </transform>
+      </node>
+      <node>
+        <identifier>HP_TrackUp_LFront</identifier>
+        <transform>
+          <row0>	1.000000 0.000000 0.000000	</row0>
+          <row1>	0.000000 0.978148 0.207912	</row1>
+          <row2>	0.000000 -0.207912 0.978148	</row2>
+          <row3>	-1.209352 0.125964 2.606015	</row3>
+        </transform>
+      </node>
+      <node>
+        <identifier>HP_TrackUp_LRear</identifier>
+        <transform>
+          <row0>	-1.000000 0.000000 0.000000	</row0>
+          <row1>	0.000000 0.793575 -0.608472	</row1>
+          <row2>	0.000000 -0.608472 -0.793575	</row2>
+          <row3>	-1.209353 -0.032591 -2.669001	</row3>
+        </transform>
+      </node>
+      <node>
+        <identifier>HP_TrackUp_RFront</identifier>
+        <transform>
+          <row0>	1.000000 0.000000 0.000000	</row0>
+          <row1>	0.000000 0.978148 0.207912	</row1>
+          <row2>	0.000000 -0.207912 0.978148	</row2>
+          <row3>	1.209353 0.125964 2.606015	</row3>
+        </transform>
+      </node>
+      <node>
+        <identifier>HP_TrackUp_RRear</identifier>
+        <transform>
+          <row0>	-1.000000 0.000000 0.000000	</row0>
+          <row1>	0.000000 0.793575 -0.608472	</row1>
+          <row2>	0.000000 -0.608472 -0.793575	</row2>
+          <row3>	1.209353 -0.032591 -2.669001	</row3>
+        </transform>
+      </node>
+      <node>
+        <identifier>HP_Track_Exhaus_1</identifier>
+        <transform>
+          <row0>	-0.544876 0.003901 -0.838508	</row0>
+          <row1>	0.003954 0.999990 0.002083	</row1>
+          <row2>	0.838507 -0.002180 -0.544886	</row2>
+          <row3>	1.344042 0.388126 -2.210223	</row3>
+        </transform>
+      </node>
+      <node>
+        <identifier>HP_turretJoint</identifier>
+        <transform>
+          <row0>	1.000000 0.000000 0.000000	</row0>
+          <row1>	0.000000 1.000000 0.000000	</row1>
+          <row2>	0.000000 0.000000 1.000000	</row2>
+          <row3>	-0.009242 0.531782 0.229462	</row3>
+        </transform>
+      </node>
+    </node>
+  </node>
+  <renderSet>
+    <treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+    <node>Scene Root</node>
+    <geometry>
+      <vertices>	vertices	</vertices>
+      <primitive>indices</primitive>
+      <primitiveGroup>	0	<material><identifier>tank_hull_01</identifier><property>g_detailUVTiling<Vector4>7.0137 7.0137 0.000000 0.000000</Vector4></property><property>g_detailPowerGloss<Float>0.35</Float></property><property>g_detailPowerAlbedo<Float>0.11</Float></property><property>g_maskBias<Float>0.22</Float></property><property>g_detailPower<Float>	5	</Float></property><property>metallicDetailMap<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture></property><property>g_useDetailMetallic<Bool>	true	</Bool></property><property>alphaReference<Int>	0	</Int></property><property>doubleSided<Bool>	false	</Bool></property><collisionFlags>	0	</collisionFlags><materialKind>	0	</materialKind><fx>shaders/std_effects/PBS_tank.fx</fx><property>	metallicGlossMap	<Texture>vehicles/german/G41_DickerMax/DickerMax_hull_01_GMM.dds</Texture></property><property>normalMap<Texture>vehicles/german/G41_DickerMax/DickerMax_hull_01_ANM.dds</Texture></property><property>diffuseMap<Texture>vehicles/german/G41_DickerMax/DickerMax_hull_01_AM.dds</Texture></property><property>excludeMaskAndAOMap<Texture>vehicles/german/G41_DickerMax/DickerMax_hull_01_AO.dds</Texture></property><property>alphaTestEnable<Bool>	false	</Bool></property><property>g_useNormalPackDXT1<Bool>	false	</Bool></property></material><groupOrigin>	-0.002463 1.410665 -0.048210	</groupOrigin></primitiveGroup>
+      <primitiveGroup>	1	<material><identifier>hull_e-25</identifier><fx>shaders/std_effects/PBS_tank.fx</fx><collisionFlags>	0	</collisionFlags><materialKind>	0	</materialKind><property>g_detailUVTiling<Vector4>7.0137 3.50685 0.000000 0.000000</Vector4></property><property>g_detailPowerGloss<Float>0.35</Float></property><property>g_detailPowerAlbedo<Float>0.11</Float></property><property>g_maskBias<Float>0.22</Float></property><property>g_detailPower<Float>	5	</Float></property><property>metallicDetailMap<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture></property><property>g_useDetailMetallic<Bool>	true	</Bool></property><property>g_useNormalPackDXT1<Bool>	false	</Bool></property><property>excludeMaskAndAOMap<Texture>vehicles/TheFalkonett's RAoS/G41_DickerMax/E-25_hull_01_AO.dds</Texture></property><property>	metallicGlossMap	<Texture>vehicles/TheFalkonett's RAoS/G41_DickerMax/E-25_hull_01_GMM.dds</Texture></property><property>normalMap<Texture>vehicles/TheFalkonett's RAoS/G41_DickerMax/E-25_hull_01_ANM.dds</Texture></property><property>diffuseMap<Texture>vehicles/TheFalkonett's RAoS/G41_DickerMax/E-25_hull_01_AM.dds</Texture></property><property>alphaReference<Int>	128	</Int></property><property>alphaTestEnable<Bool>	true	</Bool></property></material><groupOrigin>	0.034407 1.057966 0.004249	</groupOrigin></primitiveGroup>
+      <primitiveGroup>	2	<material><identifier>turret_steyr</identifier><fx>shaders/std_effects/PBS_tank.fx</fx><collisionFlags>	0	</collisionFlags><materialKind>	0	</materialKind><property>g_useNormalPackDXT1<Bool>	false	</Bool></property><property>	metallicGlossMap	<Texture>vehicles/TheFalkonett's RAoS/G41_DickerMax/Steyr_WT_turret_01_GMM.dds</Texture></property><property>normalMap<Texture>vehicles/TheFalkonett's RAoS/G41_DickerMax/Steyr_WT_turret_01_ANM.dds</Texture></property><property>diffuseMap<Texture>vehicles/TheFalkonett's RAoS/G41_DickerMax/Steyr_WT_turret_01_AM.dds</Texture></property><property>g_detailUVTiling<Vector4>3.50685 3.50685 0.000000 0.000000</Vector4></property><property>g_detailPower<Float>	5	</Float></property><property>g_detailPowerAlbedo<Float>0.11</Float></property><property>g_detailPowerGloss<Float>0.35</Float></property><property>metallicDetailMap<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture></property><property>g_useDetailMetallic<Bool>	true	</Bool></property><property>excludeMaskAndAOMap<Texture>vehicles/TheFalkonett's RAoS/G41_DickerMax/Steyr_WT_turret_01_AO.dds</Texture></property></material><groupOrigin>	0.000000 0.038023 -0.050538	</groupOrigin></primitiveGroup>
+	  <primitiveGroup>	3	<material><identifier>Net</identifier><fx>shaders/std_effects/PBS_tank.fx</fx><collisionFlags>0</collisionFlags><materialKind>0</materialKind><property>g_albedoCorrection<Vector4>1.4 1.4 1.4 1</Vector4></property><property>g_defaultPBSConversionParams<Bool>false</Bool></property><property>g_useDetailMetallic<Bool>false</Bool></property><property>g_useNormalPackDXT1<Bool>false</Bool></property><property>alphaTestEnable<Bool>true</Bool></property><property>doubleSided<Bool>true</Bool></property><property>alphaReference<Int>64</Int></property><property>g_detailPowerGloss<Float>0,35</Float></property><property>g_detailPowerAlbedo<Float>0,11</Float></property><property>g_maskBias<Float>0,22</Float></property><property>g_detailPower<Float>7</Float></property><property>normalMap<Texture>vehicles/TheFalkonett's RAoS/G41_DickerMax/Net_ANM.dds</Texture></property><property>diffuseMap<Texture>vehicles/TheFalkonett's RAoS/G41_DickerMax/winter/Net_AM.dds</Texture></property><property>excludeMaskAndAOMap<Texture>vehicles/TheFalkonett's RAoS/G41_DickerMax/Net_AO.dds</Texture></property><property>	metallicGlossMap	<Texture>vehicles/TheFalkonett's RAoS/G41_DickerMax/Net_GMM.dds</Texture></property></material></primitiveGroup>
+      <primitiveGroup>	4	<material><property>alphaReference<Int>	0	</Int></property><property>doubleSided<Bool>	false	</Bool></property><property>	selfIllumination	<Float>	0.000000	</Float></property><identifier>tank_hull_01_2</identifier><property>g_detailUVTiling<Vector4>7.0137 7.0137 0.000000 0.000000</Vector4></property><property>g_maskBias<Float>0.22</Float></property><property>g_detailPower<Float>	5	</Float></property><property>g_detailPowerAlbedo<Float>0.11</Float></property><property>g_detailPowerGloss<Float>0.35</Float></property><property>metallicDetailMap<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture></property><property>g_useDetailMetallic<Bool>	true	</Bool></property><collisionFlags>	0	</collisionFlags><materialKind>	0	</materialKind><fx>shaders/std_effects/PBS_tank.fx</fx><property>	metallicGlossMap	<Texture>vehicles/TheFalkonett's RAoS/G41_DickerMax/M4A2E4_hull_01_2_GMM.dds</Texture></property><property>normalMap<Texture>vehicles/TheFalkonett's RAoS/G41_DickerMax/M4A2E4_hull_01_2_ANM.dds</Texture></property><property>diffuseMap<Texture>vehicles/TheFalkonett's RAoS/G41_DickerMax/M4A2E4_hull_01_2_AM.dds</Texture></property><property>excludeMaskAndAOMap<Texture>vehicles/TheFalkonett's RAoS/G41_DickerMax/M4A2E4_hull_01_2_AO.dds</Texture></property><property>alphaTestEnable<Bool>	false	</Bool></property><property>g_useNormalPackDXT1<Bool>	false	</Bool></property></material><groupOrigin>	0.022668 0.228224 -0.227531	</groupOrigin></primitiveGroup>
+      <primitiveGroup>	5	<material><property>alphaReference<Int>	0	</Int></property><property>doubleSided<Bool>	false	</Bool></property><property>	selfIllumination	<Float>	0.000000	</Float></property><identifier>tank_hull_01_2</identifier><property>g_detailUVTiling<Vector4>7.0137 7.0137 0.000000 0.000000</Vector4></property><property>g_maskBias<Float>0.22</Float></property><property>g_detailPower<Float>	5	</Float></property><property>g_detailPowerAlbedo<Float>0.11</Float></property><property>g_detailPowerGloss<Float>0.35</Float></property><property>metallicDetailMap<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture></property><property>g_useDetailMetallic<Bool>	true	</Bool></property><collisionFlags>	0	</collisionFlags><materialKind>	0	</materialKind><fx>shaders/std_effects/PBS_tank.fx</fx><property>	metallicGlossMap	<Texture>vehicles/TheFalkonett's RAoS/G41_DickerMax/M4A2E4_hull_01_2_GMM.dds</Texture></property><property>normalMap<Texture>vehicles/TheFalkonett's RAoS/G41_DickerMax/M4A2E4_hull_01_2_ANM.dds</Texture></property><property>diffuseMap<Texture>vehicles/TheFalkonett's RAoS/G41_DickerMax/M4A2E4_hull_01_2_AM.dds</Texture></property><property>excludeMaskAndAOMap<Texture>vehicles/TheFalkonett's RAoS/G41_DickerMax/M4A2E4_hull_01_2_AO.dds</Texture></property><property>alphaTestEnable<Bool>	false	</Bool></property><property>g_useNormalPackDXT1<Bool>	false	</Bool></property></material><groupOrigin>	0.022668 0.228224 -0.227531	</groupOrigin></primitiveGroup>
+      <primitiveGroup>	6	<material><identifier>hull_kanonenjagdpanzer</identifier><fx>shaders/std_effects/PBS_tank.fx</fx><collisionFlags>	0	</collisionFlags><materialKind>	0	</materialKind><property>g_detailUVTiling<Vector4>8.41644 8.41644 0.000000 0.000000</Vector4></property><property>g_detailPowerGloss<Float>0.35</Float></property><property>g_detailPowerAlbedo<Float>0.11</Float></property><property>g_detailPower<Float>	5	</Float></property><property>metallicDetailMap<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture></property><property>g_useDetailMetallic<Bool>	true	</Bool></property><property>g_useNormalPackDXT1<Bool>	false	</Bool></property><property>	metallicGlossMap	<Texture>vehicles/TheFalkonett's RAoS/G41_DickerMax/KanonenJagdPanzer_hull_01_GMM.dds</Texture></property><property>normalMap<Texture>vehicles/TheFalkonett's RAoS/G41_DickerMax/KanonenJagdPanzer_hull_01_ANM.dds</Texture></property><property>diffuseMap<Texture>vehicles/TheFalkonett's RAoS/G41_DickerMax/KanonenJagdPanzer_hull_01_AM.dds</Texture></property><property>alphaReference<Int>	140	</Int></property><property>alphaTestEnable<Bool>	true	</Bool></property><property>excludeMaskAndAOMap<Texture>vehicles/TheFalkonett's RAoS/G41_DickerMax/KanonenJagdPanzer_hull_01_AO.dds</Texture></property></material><groupOrigin>	-0.004508 1.051436 -0.091434	</groupOrigin></primitiveGroup>
+    </geometry>
+  </renderSet>
+  <boundingBox>
+    <min>	-1.435428 -0.590443 -2.949298	</min>
+    <max>	1.430503 3.411773 2.852878	</max>
+  </boundingBox>
+  <geometrySize>	1287100	</geometrySize>
+  <minUVDensity>	0.000576	</minUVDensity>
+	<primitivesName>vehicles/TheFalkonett's RAoS/G41_DickerMax/normal/lod0/hull</primitivesName>
+</hull.visual_processed>
