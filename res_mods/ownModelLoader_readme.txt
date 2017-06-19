@@ -1,6 +1,6 @@
-ownModel loader V1.351
+ownModel loader V1.362
 	by atacms
-	compatibility as of now v0.9.18.0/0.9.19CT
+	compatibility as of now v0.9.19.0.2
 --------------------------------------------
 A universal model loader originally designed to address the hitbox mismatch issue caused by using remodels significantly different from stock models.
 
@@ -9,6 +9,18 @@ A universal model loader originally designed to address the hitbox mismatch issu
 This mod has the option to change only the model of tanks controlled by player, leaving friendly and enemy tanks untouched.
 It has the option to link a specific remodel to a designated list of tanks. 
 It has the option to manage multiple remodel profiles and apply them individually or all at once.
+
+This mod also provide base layer support for some advanced feature for remodels. It's not necessary to setup and enable 
+a profile in ownModel.xml to use these advanced feature. Simply having this mod in res_mods folder will be sufficient.
+Note that this is meant for remodel makers. ownModel loader provides the capability, it's up to the remodel itself to use these abilities.
+
+These advaned features included but not limited to :
+[*]animate multiple turrets and guns
+[*]load different tank skin based on map type (summer, winter or desert)
+[*]auto-rotate certain parts, like tank cooling fan.
+[*]search animation. Rotate a component toward random direction, wait a few seconds then turn to a new random direction
+[*]if a camouflage net is equipted, a camouflage net model will be attached to hull as soon as this equipment came into 
+   effect (ie. idle for a few seconds). And will be removed as soon as the tank starts moving again.
 
 
 [Known Issues]
@@ -26,6 +38,18 @@ Unless the profile belongs to a stock WoT model in which case you can activate i
 
 --------------------------------------------
 [Changelog]
+V1.362
+#fixed autorotor for old remodels(Leopard2A5)
+#fixed broken customizations for Czech/Sweden tanks
+
+V1.361
+#fixed crash when using non-levered independent suspension without segmented track
+
+V1.36
+#added some new animation bones to be used in gun geometry. (instruction_on_new_animationBone.txt)
+#these new bones receive a unique animator to perform varies tasks like autorotation or follow user viewpoint
+#previous add-on model feature is to be replaced by these bones. Old mechanism will remain to support old remodels
+
 V1.351
 #WoT 0.9.19CT compatible
 
