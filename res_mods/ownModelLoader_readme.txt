@@ -1,4 +1,4 @@
-ownModel loader V1.362
+ownModel loader V1.363
 	by atacms
 	compatibility as of now v0.9.19.0.2
 --------------------------------------------
@@ -38,6 +38,11 @@ Unless the profile belongs to a stock WoT model in which case you can activate i
 
 --------------------------------------------
 [Changelog]
+V1.363
+#fixed stuck at loading when certain tank is in the game(obj907A for example)
+#fixed missing inscriptions if inscription layout is different between original and remodel
+#known issue: in above case, clicking inscription slot in customization menu still cause inscriptions to vanish
+
 V1.362
 #fixed autorotor for old remodels(Leopard2A5)
 #fixed broken customizations for Czech/Sweden tanks

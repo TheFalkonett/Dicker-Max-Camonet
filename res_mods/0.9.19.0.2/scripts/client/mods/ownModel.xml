@@ -182,7 +182,7 @@
       <effects>shot_large</effects>
       <reloadEffect>reload115_152</reloadEffect>
 
-		<!-- optional recoil length/speed override -->
+		<!-- optional recoil length/speed parameter -->
       <recoil>
         <lodDist>MEDIUM</lodDist>
         <amplitude>0.24</amplitude>
@@ -190,7 +190,7 @@
       </recoil>
 		</gun>
 
-		<!-- optional engine sound override -->
+		<!-- optional engine sound definition -->
 		<engine>
 			<wwsoundPC>eng_v55_pc</wwsoundPC>	
 			<wwsoundNPC>eng_v55_npc</wwsoundNPC>
@@ -7179,7 +7179,8 @@ LeveredSuspensionConfig(levers=[SuspensionLever(startNodeName='Lever_Start_L0', 
 	<swapNPC> False </swapNPC>
 	<useWhitelist> True </useWhitelist>
 	<whitelist>
-		f28_105_lefh18b2
+		f28_105_lefh18b2,
+		G05_StuG_40_AusfG
 	</whitelist>	
 	<playerEmblem> ussr_star </playerEmblem>
 	<chassis>
@@ -7248,13 +7249,6 @@ None
           <size>0.26</size>
           <hideIfDamaged>	false	</hideIfDamaged>
         </player>
-        <inscription>
-          <rayStart>-1.33985 0.229928 -0.0320223</rayStart>
-          <rayEnd>-1.19133 0.170748 -0.0256976</rayEnd>
-          <rayUp>0.000000 1 0.000000</rayUp>
-          <size>0.6</size>
-          <hideIfDamaged>	True	</hideIfDamaged>
-        </inscription>
         <player>
           <rayStart>1.12789 0.228407 0.784369</rayStart>
           <rayEnd>	0.973256 0.163359 0.675482	</rayEnd>
@@ -7264,8 +7258,15 @@ None
           <isMirrored>	True	</isMirrored>
         </player>
         <inscription>
-          <rayStart>1.34366 0.223788 0.0233253</rayStart>
-          <rayEnd>1.19481 0.166969 0.00866476</rayEnd>
+          <rayStart>-1.010367 0.306633 -0.932462</rayStart>
+          <rayEnd>-0.871972 0.243009 -0.801311</rayEnd>
+          <rayUp>0.000000 1 0.000000</rayUp>
+          <size>0.6</size>
+          <hideIfDamaged>	True	</hideIfDamaged>
+        </inscription>
+        <inscription>
+          <rayStart>1.010367 0.306633 -0.932462</rayStart>
+          <rayEnd>0.871972 0.243009 -0.801311</rayEnd>
           <rayUp>0.000000 1 0.000000</rayUp>
           <size>0.6</size>
           <hideIfDamaged>	True	</hideIfDamaged>
