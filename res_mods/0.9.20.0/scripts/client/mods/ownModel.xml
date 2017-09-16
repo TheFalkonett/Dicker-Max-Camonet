@@ -22,8 +22,9 @@
 	germany_ddr
 	moder_ring
 	czech_round
-	swedish_flag
+	poland_chekers
 	poland_flag
+	swedish_flag
 	israel_flag
 	finland_flag
 	australia_flag
@@ -90,6 +91,13 @@
 	<friendlyProfiles>milky_T-90A, W07_T80BV, W09_BMP2 </friendlyProfiles>
 	<swapAllEnemy> False </swapAllEnemy>
 	<enemyProfiles> N14_Leopard2A5, N01_leopard2A6,N10_challengerII, N09_M1A1</enemyProfiles>
+	
+	<!-- hotkey to execute and rewind customized animation if it is defined as hotkey triggered.
+	for valid keycode check hotkeys.txt
+	-->
+	<hotkey_animation>KEY_INSERT</hotkey_animation>
+	<hotkey_animation_reverse>KEY_DELETE</hotkey_animation_reverse>
+
 	<models>
 
 	<!--	The following section demonstrates how to swap all player-controlled tanks 
@@ -5736,8 +5744,8 @@ TrackNode(thickness=0.013899999670684338, maxAmplitude=0.10000000149011612, maxO
 
 	<r06_t-28>
 	<enabled> False </enabled>
-	<swapNPC> True </swapNPC>
-	<useWhitelist> False </useWhitelist>
+	<swapNPC> False </swapNPC>
+	<useWhitelist> True </useWhitelist>
 	<whitelist>
 		f28_105_lefh18b2,
 		GB50_Sherman_III,
@@ -12416,6 +12424,7 @@ None
 <emblemSlots><insigniaOnGun><rayStart>0 0 2.26</rayStart><rayEnd>0.115104 -0.0889663 2.26</rayEnd><rayUp>0.01 0.01 5</rayUp><size>0.001</size><hideIfDamaged>	false	</hideIfDamaged></insigniaOnGun></emblemSlots>
 <effects>shot_auto</effects>
 <reloadEffect>reload12_25</reloadEffect>
+<burst>5 0.12 </burst>
 	</gun>
 	<engine>
       <wwsoundPC>eng_v55_pc</wwsoundPC>
