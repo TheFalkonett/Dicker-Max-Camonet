@@ -1,0 +1,30 @@
+<root>
+	<styleSets>
+		<germany>
+			<indexStart>30</indexStart>
+			<path>maps/tacticalNumbers/germany</path>
+		</germany>
+		<russian>
+			<indexStart>40</indexStart>
+			<path>maps/tacticalNumbers/russian</path>
+		</russian>
+		
+		
+		<!-- courtesy of wookiee_monster -->
+		<russian_old>
+			<indexStart>50</indexStart>
+			<path>maps/tacticalNumbers/russian_old</path>
+		</russian_old>
+		<sweden>
+			<indexStart>60</indexStart>
+			<path>maps/tacticalNumbers/sweden</path>
+		</sweden>
+		<chinese>
+			<indexStart>70</indexStart>
+			<path>maps/tacticalNumbers/chinese</path>
+		</chinese>
+
+
+
+	</styleSets>
+</root>
