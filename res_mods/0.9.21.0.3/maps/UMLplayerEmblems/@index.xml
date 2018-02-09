@@ -1,0 +1,55 @@
+<root>
+
+	<!-- index offset to move UML emblems away from sections already occupied by stock WoT playerEmblems-->	
+	<!-- by setting it to 0 it's possible to overwrite stock WoT playerEmblems -->
+	<offset> 9500 </offset> 
+
+	<emblems>
+
+		<!-- Polish Insignias, courtesy of RazNaRok -->
+		<poland_chekers_diamond>
+			<id> 0 </id>	
+			<path> maps/UMLplayerEmblems/sticker_00.dds </path>
+			<comment> Emblem of Polish Army, diamond shape(1960-1980)</comment>
+		</poland_chekers_diamond>
+		<poland_eagle>
+			<id> 1 </id>	
+			<path> maps/UMLplayerEmblems/sticker_01.dds </path>
+			<comment>white eagle emblem </comment>
+		</poland_eagle>
+		<poland_bison>
+			<id> 2 </id>	
+			<path> maps/UMLplayerEmblems/sticker_02.dds </path>
+			<comment>white bison emblem </comment>
+		</poland_bison>
+		<poland_bear>
+			<id> 3 </id>	
+			<path> maps/UMLplayerEmblems/sticker_03.dds </path>
+			<comment>black bear emblem </comment>
+		</poland_bear>
+		<poland_wing>
+			<id> 4 </id>	
+			<path> maps/UMLplayerEmblems/sticker_04.dds </path>
+			<comment>black winged helmet </comment>
+		</poland_wing>
+		<poland_scorpion1>
+			<id> 5 </id>	
+			<path> maps/UMLplayerEmblems/sticker_05.dds </path>
+			<comment>black scorpion </comment>
+		</poland_scorpion1>
+		<poland_scorpion2>
+			<id> 6 </id>	
+			<path> maps/UMLplayerEmblems/sticker_06.dds </path>
+			<comment>black scorpion with red triangle </comment>
+		</poland_scorpion2>
+		<poland_puma>
+			<id> 7 </id>	
+			<path> maps/UMLplayerEmblems/sticker_07.dds </path>
+			<comment>white puma </comment>
+		</poland_puma>
+
+
+
+
+	</emblems>
+</root>
